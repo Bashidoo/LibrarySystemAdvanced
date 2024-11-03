@@ -13,7 +13,7 @@ namespace LibrarySystemAdvanced
             
             var author1 = new Author("Busherino",123456, "Syria"); 
             
-            var book1 = new Book("Niggalations", "Busher Abo Dan", 2002, 2682424); 
+            var book1 = new Book("Niggalations", "Busher Abo Dan", 2002, 2682424, "Action"); 
 
 
             library.AddAuthor(author1);

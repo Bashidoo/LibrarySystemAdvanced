@@ -105,7 +105,7 @@ namespace LibrarySystemAdvanced
         public void AddAuthor(Author author)
         {
 
-            Console.WriteLine($"Author: {author.Name}, has been added");
+            Console.WriteLine($"Author: {author.Name}, has been added"); // Debugging line.
             if (!Authors.Any(a => a.ID == author.ID || a.Name == author.Name))
             {
               Authors.Add(author);
@@ -178,7 +178,7 @@ namespace LibrarySystemAdvanced
             foreach (var book in Books)
             {
 
-                Console.WriteLine($" ID: {book.ISBN}, Title: {book.Title}, Author : {book.Author}, Year : {book.PublishingYear}");
+                Console.WriteLine($" ID: {book.ISBN}, Title: {book.Title}, Genre: {book.Genre}, Author : {book.Author}, Year : {book.PublishingYear}");
             }
         }
         public void DisplayAllAuthors()
@@ -189,6 +189,53 @@ namespace LibrarySystemAdvanced
                 {
                     Console.WriteLine($"Author: {author.Name} ID: {author.ID} Country: {author.Country}");
                 }
+            }
+        }
+        public void SearchAndFilterBooks(
+               string? author = null,
+               int? publishingYear = null,
+              string sortBy = "title") // Default sorting by title
+        {
+            var filteredBooks = Books.AsQueryable();
+
+            // Apply filters if values are provided
+            if (!string.IsNullOrEmpty(author))
+            {
+                filteredBooks = filteredBooks.Where(b => b.Author.Contains(author, StringComparison.OrdinalIgnoreCase));
+            }
+
+            if (publishingYear.HasValue)
+            {
+                filteredBooks = filteredBooks.Where(b => b.PublishingYear == publishingYear.Value);
+            }
+
+            // Sort based on the provided criteria
+            switch (sortBy.ToLower())
+            {
+                case "year":
+                    filteredBooks = filteredBooks.OrderBy(b => b.PublishingYear);
+                    break;
+                case "author":
+                    filteredBooks = filteredBooks.OrderBy(b => b.Author);
+                    break;
+                case "title":
+                default:
+                    filteredBooks = filteredBooks.OrderBy(b => b.Title);
+                    break;
+            }
+
+            // Display results
+            Console.WriteLine("Search Results:");
+            if (filteredBooks.Any())
+            {
+                foreach (var book in filteredBooks)
+                {
+                    Console.WriteLine(book); 
+                }
+            }
+            else
+            {
+                Console.WriteLine("No books found matching the criteria.");
             }
         }
 
