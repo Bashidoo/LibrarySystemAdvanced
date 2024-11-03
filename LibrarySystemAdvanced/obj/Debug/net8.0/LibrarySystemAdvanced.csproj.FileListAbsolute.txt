@@ -1,0 +1,15 @@
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\bin\Debug\net8.0\LibrarySystemAdvanced.exe
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\bin\Debug\net8.0\LibrarySystemAdvanced.deps.json
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\bin\Debug\net8.0\LibrarySystemAdvanced.runtimeconfig.json
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\bin\Debug\net8.0\LibrarySystemAdvanced.dll
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\bin\Debug\net8.0\LibrarySystemAdvanced.pdb
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\LibrarySystemAdvanced.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\LibrarySystemAdvanced.AssemblyInfoInputs.cache
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\LibrarySystemAdvanced.AssemblyInfo.cs
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\LibrarySystemAdvanced.csproj.CoreCompileInputs.cache
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\LibrarySystemAdvanced.sourcelink.json
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\LibrarySystemAdvanced.dll
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\refint\LibrarySystemAdvanced.dll
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\LibrarySystemAdvanced.pdb
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\LibrarySystemAdvanced.genruntimeconfig.cache
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\ref\LibrarySystemAdvanced.dll
