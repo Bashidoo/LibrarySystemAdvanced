@@ -201,7 +201,7 @@ namespace LibrarySystemAdvanced
             // Apply filters if values are provided
             if (!string.IsNullOrEmpty(author))
             {
-                filteredBooks = filteredBooks.Where(b => b.Author.Contains(author, StringComparison.OrdinalIgnoreCase));
+                filteredBooks = filteredBooks.Where(b => b.Author == author);
             }
 
             if (publishingYear.HasValue)
@@ -225,12 +225,25 @@ namespace LibrarySystemAdvanced
             }
 
             // Display results
-            Console.WriteLine("Search Results:");
+            Console.WriteLine("Search Results: ↓. Press 1 to reverse order ↑ or leave blank to continue");
             if (filteredBooks.Any())
             {
-                foreach (var book in filteredBooks)
+                string? input = Console.ReadLine();
+
+                if (input != "1")
                 {
+                    filteredBooks.Reverse();
+                    foreach (var book in filteredBooks)
+                    {
+                        Console.WriteLine(book);
+                    }
+                }
+                else if (string.IsNullOrEmpty(input) || input == null)
+                {
+                foreach (var book in filteredBooks)
+                    {
                     Console.WriteLine(book); 
+                    }
                 }
             }
             else

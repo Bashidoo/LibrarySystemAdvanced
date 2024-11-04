@@ -18,6 +18,8 @@ namespace LibrarySystemAdvanced
 
         public int ISBN {  get; set; }
 
+        public List<int> Grades { get; set; } = new List<int>();
+
 
 
         public Book(string title,string author, int publishingYear, int isbn, string genre)
@@ -27,6 +29,29 @@ namespace LibrarySystemAdvanced
             PublishingYear = publishingYear;
             ISBN = isbn;
             Genre = genre;
+        }
+
+        public void AddGrade(int grade)
+        {
+
+            Console.WriteLine("Add Grade too book (1-5).");
+
+            if (grade < 1 || 5 < grade)
+            {
+                Console.WriteLine("Please type grade from 1 to 5");
+            }
+            else
+            {
+                Grades.Add(grade);
+                Console.WriteLine($"Grade : {grade} has been added to {Title}");
+            }
+
+        }
+
+        public double AverageGrades()
+        {
+            if (Grades.Count == 0) return 0;
+            return Grades.Average();
         }
         public override string ToString()
         {

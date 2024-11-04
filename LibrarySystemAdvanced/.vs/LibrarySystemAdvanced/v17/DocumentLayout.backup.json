@@ -15,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Menu.cs",
               "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\Menu.cs",
               "RelativeToolTip": "Menu.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAA3wFIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T02:56:33.98Z",
               "IsPinned": true,
@@ -52,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
@@ -71,7 +71,7 @@
               "RelativeDocumentMoniker": "Library.cs",
               "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\Library.cs",
               "RelativeToolTip": "Library.cs",
-              "ViewState": "AgIAAMIAAAAAAAAAAAAQwLQAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAOQAAAAAAAAAAAA4wPMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T02:56:11.363Z",
               "EditorCaption": ""
@@ -86,8 +86,7 @@
               "RelativeToolTip": "Author.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T02:55:59.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T02:55:59.088Z"
             },
             {
               "$type": "Document",
@@ -97,14 +96,14 @@
               "RelativeDocumentMoniker": "Book.cs",
               "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\Book.cs",
               "RelativeToolTip": "Book.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAABAwCAAAACuAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAA0wDIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T02:55:47.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T02:55:15.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T02:55:15.688Z"
             }
           ]
         }

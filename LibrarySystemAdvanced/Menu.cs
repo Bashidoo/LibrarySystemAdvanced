@@ -60,8 +60,8 @@ namespace LibrarySystemAdvanced
                         AskforInfoToRemoveBook();
                         break;
                     case '6':
-                        AskforInfoToRemoveAuthor();
-
+                        string? nameOfAuthor = _library.GetValidatedStringInput("Enter the Authors name to Remove him.");
+                        _library.RemoveAuthor(nameOfAuthor);
 
                         break;
                     case '7':
@@ -70,7 +70,7 @@ namespace LibrarySystemAdvanced
                         
                         break;
                     case '8':
-                        Console.WriteLine("Enter the search criteria (leave blank to skip):");
+                        Console.WriteLine("Enter the search criteria (press Enter to skip):");
 
                         Console.Write("Author: ");
                         string? author = Console.ReadLine(); // no validator as its optional
@@ -89,7 +89,7 @@ namespace LibrarySystemAdvanced
                         Console.WriteLine("2. By Author");
                         Console.WriteLine("3. By Year of Publication");
                         
-                        string sortOption = _library.GetValidatedStringInput("Enter your choice (1-3): ");
+                        string sortOption = _library.GetValidatedStringInput("Enter your choice 1-3: ");
 
                         string sortBy = sortOption switch
                         {
@@ -149,12 +149,7 @@ namespace LibrarySystemAdvanced
             _library.Authors.Add(auhtor);
 
         }
-        private void AskforInfoToRemoveAuthor()
-        {
-           
-            string? nameOfAuthor = _library.GetValidatedStringInput("Enter the Authors name to Remove him.");
-           _library.RemoveAuthor(nameOfAuthor);
-        }
+
 
     }
 }
