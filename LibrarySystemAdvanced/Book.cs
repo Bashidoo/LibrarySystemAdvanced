@@ -29,6 +29,7 @@ namespace LibrarySystemAdvanced
             PublishingYear = publishingYear;
             ISBN = isbn;
             Genre = genre;
+            
         }
 
         public void AddGrade(int grade)
@@ -48,10 +49,15 @@ namespace LibrarySystemAdvanced
 
         }
 
-        public double AverageGrades()
+        public double AverageGrades
         {
+            get
+            {
+            
             if (Grades.Count == 0) return 0;
             return Grades.Average();
+
+            }
         }
         public override string ToString()
         {

@@ -13,6 +13,7 @@ namespace LibrarySystemAdvanced
 
         public List<Book> Books { get; set; } = new List<Book>(); // To get the list of book from menu and set the information.
         public List<Author> Authors { get; set; } = new List<Author>(); // To get the list of author from menu and set the information
+        
 
         public void AddBook(Book book)
         {
@@ -178,7 +179,7 @@ namespace LibrarySystemAdvanced
             foreach (var book in Books)
             {
 
-                Console.WriteLine($" ID: {book.ISBN}, Title: {book.Title}, Genre: {book.Genre}, Author : {book.Author}, Year : {book.PublishingYear}");
+                Console.WriteLine($" ID: {book.ISBN}, Title: {book.Title}, Genre: {book.Genre}, Author : {book.Author}, Year : {book.PublishingYear}. AverageGrade :{book.AverageGrades:F2}");
             }
         }
         public void DisplayAllAuthors()

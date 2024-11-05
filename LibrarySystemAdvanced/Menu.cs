@@ -124,9 +124,16 @@ namespace LibrarySystemAdvanced
             string? authorName = _library.GetValidatedStringInput("Enter Authors Name");
             
 
-            int publishingYear = _library.GetValidatedNumberInput("Enter Book Publishing Year"); 
+            int publishingYear = _library.GetValidatedNumberInput("Enter Book Publishing Year");
 
+            
             var book = new Book(title, authorName, publishingYear, isbn,genre);
+
+            int? AddedGrade = _library.GetValidatedNumberInput("Enter a grade between ( 1 - 5 )");
+            if (AddedGrade != null)
+            {
+                book.AddGrade(AddedGrade.Value); // The same book that is initialized from (var book =) can be used again, don't need to add grade into constructor.
+            }
 
             _library.AddBook(book);
 

@@ -13,3 +13,4 @@ C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\
 C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\LibrarySystemAdvanced.pdb
 C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\LibrarySystemAdvanced.genruntimeconfig.cache
 C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\obj\Debug\net8.0\ref\LibrarySystemAdvanced.dll
+C:\Users\Busher\Desktop\Github\Suii\LibrarySystemAdvanced\LibrarySystemAdvanced\bin\Debug\net8.0\data.json
