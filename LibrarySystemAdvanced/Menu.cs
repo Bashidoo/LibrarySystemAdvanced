@@ -82,36 +82,7 @@ namespace LibrarySystemAdvanced
                         
                         break;
                     case '8':
-                        Console.WriteLine("Enter the search criteria (press Enter to skip):");
-
-                        Console.Write("Author: ");
-                        string? author = Console.ReadLine(); // no validator as its optional
-
-                        // Get the publishing year using GetValidatedNumberInput
-                        Console.Write("Publishing Year (optional, press Enter to skip): ");
-                        int? publishingYear = null;
-                        string? input = Console.ReadLine();
-                        if (!string.IsNullOrEmpty(input))
-                        {
-                            publishingYear = null;
-                        }
-
-                        Console.WriteLine("How would you like to sort the results?");
-                        Console.WriteLine("1. By Title");
-                        Console.WriteLine("2. By Author");
-                        Console.WriteLine("3. By Year of Publication");
-                        
-                        string sortOption = _library.GetValidatedStringInput("Enter your choice 1-3: ");
-
-                        string sortBy = sortOption switch
-                        {
-                            "1" => "title",
-                            "2" => "author",
-                            "3" => "year",
-                            _ => "title" // Default sort by title
-                        };
-
-                        _library.SearchAndFilterBooks(author, publishingYear, sortBy);
+                        AskForInfoToSearchAndFilter();
                         break;
                       
                     case '9':
@@ -149,6 +120,40 @@ namespace LibrarySystemAdvanced
 
             _library.AddBook(book);
 
+        }
+
+        private void AskForInfoToSearchAndFilter()
+        {
+            Console.WriteLine("Enter the search criteria (press Enter to skip):");
+
+            Console.Write("Author: ");
+            string? author = Console.ReadLine(); // no validator as its optional
+
+            // Get the publishing year using GetValidatedNumberInput
+            Console.Write("Publishing Year (optional, press Enter to skip): ");
+            int? publishingYear = null;
+            string? input = Console.ReadLine();
+            if (!string.IsNullOrEmpty(input))
+            {
+                publishingYear = null;
+            }
+
+            Console.WriteLine("How would you like to sort the results?");
+            Console.WriteLine("1. By Title");
+            Console.WriteLine("2. By Author");
+            Console.WriteLine("3. By Year of Publication");
+
+            string sortOption = _library.GetValidatedStringInput("Enter your choice 1-3: ");
+
+            string sortBy = sortOption switch
+            {
+                "1" => "title",
+                "2" => "author",
+                "3" => "year",
+                _ => "title" // Default sort by title
+            };
+
+            _library.SearchAndFilterBooks(author, publishingYear, sortBy);
         }
         private void AskforInfoToRemoveBook()
         {

@@ -29,12 +29,7 @@ namespace LibrarySystemAdvanced
             {
                 Console.WriteLine($"Error reading JSON file: {ex.Message}");
             }
-            //string allDatafromJsonType = File.ReadAllText(dataJsonFilePath);
-
-            //MyDB myDB = JsonSerializer.Deserialize<MyDB>(allDatafromJsonType)!;
-
-            //List<Book> allBooksFromJson = myDB.AllBooksFromDB;
-
+          
 
 
             var author1 = new Author("Busherino",123456, "Syria"); 
@@ -48,7 +43,19 @@ namespace LibrarySystemAdvanced
 
             var menu = new Menu(library);
             menu.Show();
-            
+            try
+            {
+                string allDatafromJsonType = File.ReadAllText(dataJsonFilePath);
+                MyDB myDB = JsonSerializer.Deserialize<MyDB>(allDatafromJsonType)!;
+                string updatedmyDB = JsonSerializer.Serialize(myDB, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(dataJsonFilePath, updatedmyDB);
+
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"Error Saving JSON file: {ex.Message}");
+           }
         }
     }
 }
