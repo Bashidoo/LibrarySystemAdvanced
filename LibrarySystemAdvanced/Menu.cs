@@ -19,10 +19,22 @@ namespace LibrarySystemAdvanced
             
         }
 
+
+
         public void Show()
         {
+            string? nameOfUser = _library.GetValidatedStringInput("Please Enter Your name:");
+            if (nameOfUser != null)
+            {
+                
+                Console.WriteLine($"Hello! {nameOfUser} welcome to library.");
+            }
+
+
             while (running)
             {
+                
+
                 Console.WriteLine("1. AddBook");
                 Console.WriteLine("2. Add author");
                 Console.WriteLine("3. Update book details.");
@@ -113,23 +125,23 @@ namespace LibrarySystemAdvanced
 
         private void AskforInfoToAddBook()
         {
-            int isbn = _library.GetValidatedNumberInput("Enter Book ISBN");
+            int isbn = _library.GetValidatedNumberInput("Enter Book ISBN:");
 
             
-            string? title = _library.GetValidatedStringInput("Enter Book Title");
+            string? title = _library.GetValidatedStringInput("Enter Book Title:");
 
-            string? genre = _library.GetValidatedStringInput("Enter Book Genre");
+            string? genre = _library.GetValidatedStringInput("Enter Book Genre:");
 
             
-            string? authorName = _library.GetValidatedStringInput("Enter Authors Name");
+            string? authorName = _library.GetValidatedStringInput("Enter Authors Name:");
             
 
-            int publishingYear = _library.GetValidatedNumberInput("Enter Book Publishing Year");
+            int publishingYear = _library.GetValidatedNumberInput("Enter Book Publishing Year:");
 
             
             var book = new Book(title, authorName, publishingYear, isbn,genre);
 
-            int? AddedGrade = _library.GetValidatedNumberInput("Enter a grade between ( 1 - 5 )");
+            int? AddedGrade = _library.GetValidatedNumberInput("Enter a grade between ( 1 - 5 ):\n");
             if (AddedGrade != null)
             {
                 book.AddGrade(AddedGrade.Value); // The same book that is initialized from (var book =) can be used again, don't need to add grade into constructor.
