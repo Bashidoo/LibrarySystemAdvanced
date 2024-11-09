@@ -6,17 +6,12 @@
       "Genre": "Fiction",
       "PublishingYear": 1925,
       "ISBN": 123456789,
-      "Grades": [ 5, 4, 4 ]
-      
-    },
-    {
-      "Title": "To Kill a Mockingbird",
-      "Author": "Harper Lee",
-      "Genre": "Historical Fiction",
-      "PublishingYear": 1960,
-      "ISBN": 987654321,
-      "Grades": [ 5, 5, 4, 5 ]
-      
+      "Grades": [
+        5,
+        4,
+        4
+      ],
+      "AverageGrades": 4.333333333333333
     },
     {
       "Title": "1984",
@@ -24,8 +19,12 @@
       "Genre": "Dystopian",
       "PublishingYear": 1949,
       "ISBN": 112233445,
-      "Grades": [ 4, 3, 4 ]
-      
+      "Grades": [
+        4,
+        3,
+        4
+      ],
+      "AverageGrades": 3.6666666666666665
     },
     {
       "Title": "Pride and Prejudice",
@@ -33,8 +32,12 @@
       "Genre": "Romance",
       "PublishingYear": 1813,
       "ISBN": 998877665,
-      "Grades": [ 5, 5, 5 ]
-      
+      "Grades": [
+        5,
+        5,
+        5
+      ],
+      "AverageGrades": 5
     },
     {
       "Title": "The Catcher in the Rye",
@@ -42,8 +45,12 @@
       "Genre": "Literary Fiction",
       "PublishingYear": 1951,
       "ISBN": 556677889,
-      "Grades": [ 3, 3, 4 ]
-      
+      "Grades": [
+        3,
+        3,
+        4
+      ],
+      "AverageGrades": 3.3333333333333335
     },
     {
       "Title": "The Hobbit",
@@ -51,8 +58,12 @@
       "Genre": "Fantasy",
       "PublishingYear": 1937,
       "ISBN": 334455667,
-      "Grades": [ 5, 4, 5 ]
-      
+      "Grades": [
+        5,
+        4,
+        5
+      ],
+      "AverageGrades": 4.666666666666667
     },
     {
       "Title": "Moby-Dick",
@@ -60,8 +71,13 @@
       "Genre": "Adventure",
       "PublishingYear": 1851,
       "ISBN": 223344556,
-      "Grades": [ 2, 3, 3, 2 ]
-     
+      "Grades": [
+        2,
+        3,
+        3,
+        2
+      ],
+      "AverageGrades": 2.5
     },
     {
       "Title": "War and Peace",
@@ -69,8 +85,12 @@
       "Genre": "Historical Fiction",
       "PublishingYear": 1869,
       "ISBN": 667788990,
-      "Grades": [ 4, 5, 5 ]
-      
+      "Grades": [
+        4,
+        5,
+        5
+      ],
+      "AverageGrades": 4.666666666666667
     },
     {
       "Title": "Crime and Punishment",
@@ -78,8 +98,12 @@
       "Genre": "Psychological Fiction",
       "PublishingYear": 1866,
       "ISBN": 778899001,
-      "Grades": [ 3, 4, 4 ]
-      
+      "Grades": [
+        3,
+        4,
+        4
+      ],
+      "AverageGrades": 3.6666666666666665
     },
     {
       "Title": "The Odyssey",
@@ -87,8 +111,14 @@
       "Genre": "Epic Poetry",
       "PublishingYear": 800,
       "ISBN": 445566778,
-      "Grades": [ 5, 4, 5, 4, 5 ]
-      
+      "Grades": [
+        5,
+        4,
+        5,
+        4,
+        5
+      ],
+      "AverageGrades": 4.6
     }
   ]
 }

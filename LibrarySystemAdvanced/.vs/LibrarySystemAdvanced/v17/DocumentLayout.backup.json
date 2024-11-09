@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +15,20 @@
       "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DCF65FE-9CE3-457F-93E1-7523A3377386}|LibrarySystemAdvanced.csproj|c:\\users\\busher\\desktop\\github\\suii\\librarysystemadvanced\\librarysystemadvanced\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,33 +46,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\Menu.cs",
               "RelativeDocumentMoniker": "Menu.cs",
               "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\Menu.cs",
               "RelativeToolTip": "Menu.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAgwKMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAIA3wC8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T02:56:33.98Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MyDB.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\MyDB.cs",
               "RelativeDocumentMoniker": "MyDB.cs",
               "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\MyDB.cs",
               "RelativeToolTip": "MyDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:54:09.541Z"
+              "WhenOpened": "2024-11-05T01:54:09.541Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "data.json",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\data.json",
               "RelativeDocumentMoniker": "data.json",
@@ -80,11 +80,12 @@
               "RelativeToolTip": "data.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-04T13:50:09.368Z"
+              "WhenOpened": "2024-11-04T13:50:09.368Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
@@ -96,19 +97,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Library.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\Library.cs",
               "RelativeDocumentMoniker": "Library.cs",
               "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\Library.cs",
               "RelativeToolTip": "Library.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALUAAACdAAAAAAAAAA==",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAMcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T02:56:11.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\Author.cs",
               "RelativeDocumentMoniker": "Author.cs",
@@ -138,7 +139,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Suii\\LibrarySystemAdvanced\\LibrarySystemAdvanced\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAxwDMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T02:55:15.688Z",
               "EditorCaption": ""

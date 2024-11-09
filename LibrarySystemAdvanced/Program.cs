@@ -45,10 +45,12 @@ namespace LibrarySystemAdvanced
             menu.Show();
             try
             {
+
                 string allDatafromJsonType = File.ReadAllText(dataJsonFilePath);
-                MyDB myDB = JsonSerializer.Deserialize<MyDB>(allDatafromJsonType)!;
+                var myDB = new MyDB { AllBooksFromDB = library.Books };
                 string updatedmyDB = JsonSerializer.Serialize(myDB, new JsonSerializerOptions { WriteIndented = true });
                 File.WriteAllText(dataJsonFilePath, updatedmyDB);
+                Console.WriteLine("Library Data successfully saved to JSON");
 
             }
             catch (Exception ex)
