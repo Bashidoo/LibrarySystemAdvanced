@@ -10,13 +10,13 @@ namespace LibrarySystemAdvanced
 {
     public class Author
     {
-        [JsonPropertyName("name")]
+         
         public string Name { get; set; }
 
-        [JsonPropertyName("id")]
+      
         public int ID { get; set; }
 
-        [JsonPropertyName("country")]
+      
         public string Country { get; set; }
 
 

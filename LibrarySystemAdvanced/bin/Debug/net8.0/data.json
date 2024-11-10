@@ -83,14 +83,14 @@
   ],
   "authors": [
     {
-      "name": "Bashar Al Assad",
-      "id": 20020304,
-      "country": "Syria"
+      "Name": "Bashar Al Assad",
+      "ID": 20020304,
+      "Country": "Syria"
     },
     {
-      "name": "Genghis Khan",
-      "id": 20000104,
-      "country": "Mongolia"
+      "Name": "Genghis Khan",
+      "ID": 20000104,
+      "Country": "Mongolia"
     }
   ]
 }
