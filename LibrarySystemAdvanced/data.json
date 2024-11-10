@@ -1,94 +1,96 @@
 {
   "books": [
     {
-      "Title": "The Great Gatsby",
-      "Author": "F. Scott Fitzgerald",
-      "Genre": "Fiction",
-      "PublishingYear": 1925,
-      "ISBN": 123456789,
-      "Grades": [ 5, 4, 4 ]
-      
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "publishingYear": 1925,
+      "isbn": 123456789,
+      "grades": [ 5, 4, 4 ]
     },
     {
-      "Title": "To Kill a Mockingbird",
-      "Author": "Harper Lee",
-      "Genre": "Historical Fiction",
-      "PublishingYear": 1960,
-      "ISBN": 987654321,
-      "Grades": [ 5, 5, 4, 5 ]
-      
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Historical Fiction",
+      "publishingYear": 1960,
+      "isbn": 987654321,
+      "grades": [ 5, 5, 4, 5 ]
     },
     {
-      "Title": "1984",
-      "Author": "George Orwell",
-      "Genre": "Dystopian",
-      "PublishingYear": 1949,
-      "ISBN": 112233445,
-      "Grades": [ 4, 3, 4 ]
-      
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "publishingYear": 1949,
+      "isbn": 112233445,
+      "grades": [ 4, 3, 4 ]
     },
     {
-      "Title": "Pride and Prejudice",
-      "Author": "Jane Austen",
-      "Genre": "Romance",
-      "PublishingYear": 1813,
-      "ISBN": 998877665,
-      "Grades": [ 5, 5, 5 ]
-      
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "publishingYear": 1813,
+      "isbn": 998877665,
+      "grades": [ 5, 5, 5 ]
     },
     {
-      "Title": "The Catcher in the Rye",
-      "Author": "J.D. Salinger",
-      "Genre": "Literary Fiction",
-      "PublishingYear": 1951,
-      "ISBN": 556677889,
-      "Grades": [ 3, 3, 4 ]
-      
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Literary Fiction",
+      "publishingYear": 1951,
+      "isbn": 556677889,
+      "grades": [ 3, 3, 4 ]
     },
     {
-      "Title": "The Hobbit",
-      "Author": "J.R.R. Tolkien",
-      "Genre": "Fantasy",
-      "PublishingYear": 1937,
-      "ISBN": 334455667,
-      "Grades": [ 5, 4, 5 ]
-      
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publishingYear": 1937,
+      "isbn": 334455667,
+      "grades": [ 5, 4, 5 ]
     },
     {
-      "Title": "Moby-Dick",
-      "Author": "Herman Melville",
-      "Genre": "Adventure",
-      "PublishingYear": 1851,
-      "ISBN": 223344556,
-      "Grades": [ 2, 3, 3, 2 ]
-     
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "genre": "Adventure",
+      "publishingYear": 1851,
+      "isbn": 223344556,
+      "grades": [ 2, 3, 3, 2 ]
     },
     {
-      "Title": "War and Peace",
-      "Author": "Leo Tolstoy",
-      "Genre": "Historical Fiction",
-      "PublishingYear": 1869,
-      "ISBN": 667788990,
-      "Grades": [ 4, 5, 5 ]
-      
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "genre": "Historical Fiction",
+      "publishingYear": 1869,
+      "isbn": 667788990,
+      "grades": [ 4, 5, 5 ]
     },
     {
-      "Title": "Crime and Punishment",
-      "Author": "Fyodor Dostoevsky",
-      "Genre": "Psychological Fiction",
-      "PublishingYear": 1866,
-      "ISBN": 778899001,
-      "Grades": [ 3, 4, 4 ]
-      
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Psychological Fiction",
+      "publishingYear": 1866,
+      "isbn": 778899001,
+      "grades": [ 3, 4, 4 ]
     },
     {
-      "Title": "The Odyssey",
-      "Author": "Homer",
-      "Genre": "Epic Poetry",
-      "PublishingYear": 800,
-      "ISBN": 445566778,
-      "Grades": [ 5, 4, 5, 4, 5 ]
-      
+      "title": "The Odyssey",
+      "author": "Homer",
+      "genre": "Epic Poetry",
+      "publishingYear": 800,
+      "isbn": 445566778,
+      "grades": [ 5, 4, 5, 4, 5 ]
+    }
+  ],
+  "authors": [
+    {
+      "name": "Bashar Al Assad",
+      "id": 20020304,
+      "country": "Syria"
+    },
+    {
+      "name": "Genghis Khan",
+      "id": 20000104,
+      "country": "Mongolia"
     }
   ]
 }

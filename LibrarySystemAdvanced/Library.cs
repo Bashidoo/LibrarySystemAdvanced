@@ -184,12 +184,16 @@ namespace LibrarySystemAdvanced
         }
         public void DisplayAllAuthors()
         {
-            if(Authors.Any())
+            if (Authors.Any())
             {
                 foreach (var author in Authors)
                 {
                     Console.WriteLine($"Author: {author.Name} ID: {author.ID} Country: {author.Country}");
                 }
+            }
+            else
+            {
+                Console.WriteLine("No Authors Found.");
             }
         }
         public void SearchAndFilterBooks(

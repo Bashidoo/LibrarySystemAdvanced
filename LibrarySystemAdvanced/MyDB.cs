@@ -10,7 +10,11 @@ namespace LibrarySystemAdvanced
     public class MyDB
     {
         [JsonPropertyName("books")]
-        public List<Book> AllBooksFromDB { get; set; } 
+        public List<Book> AllBooksFromDB { get; set; }
+
+        [JsonPropertyName("authors")]
+
+        public List<Author> AllAuthorFromDB { get; set; }
 
     }
 }

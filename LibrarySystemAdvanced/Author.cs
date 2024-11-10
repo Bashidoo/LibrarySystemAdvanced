@@ -3,17 +3,25 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace LibrarySystemAdvanced
 {
     public class Author
     {
-        public int ID { get; set; }
+        [JsonPropertyName("name")]
         public string Name { get; set; }
-        public string Country { get; set; }
-        public List<Author> Authors { get; set; } = new List<Author>();
 
+        [JsonPropertyName("id")]
+        public int ID { get; set; }
+
+        [JsonPropertyName("country")]
+        public string Country { get; set; }
+
+
+
+        
 
         public Author(string name,int id, string country)
         {
@@ -21,6 +29,11 @@ namespace LibrarySystemAdvanced
             ID = id;
             Country = country;
                  
+        }
+
+        public override string ToString()
+        {
+            return ($"ID: {ID}, Name: {Name}, Country: {Country}");
         }
     }
 }

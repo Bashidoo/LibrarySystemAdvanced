@@ -22,7 +22,14 @@ namespace LibrarySystemAdvanced
 
                 // Add deserialized books to the library
                 library.Books.AddRange(myDB.AllBooksFromDB); // Library.Books.Add is not working, AddRange is working maybe because it has a list of books so it considers it as a range.
-                Console.WriteLine("Books successfully added from JSON.");
+                library.Authors.AddRange(myDB.AllAuthorFromDB);
+
+                foreach (var author in library.Authors)
+                {
+                    Console.WriteLine(author);
+                }
+
+                Console.WriteLine("Books and Authors successfully added from JSON.");
 
             }
             catch (Exception ex)
@@ -47,7 +54,12 @@ namespace LibrarySystemAdvanced
             {
 
                 string allDatafromJsonType = File.ReadAllText(dataJsonFilePath);
-                var myDB = new MyDB { AllBooksFromDB = library.Books };
+                var myDB = new MyDB 
+                { 
+                    AllBooksFromDB = library.Books,
+                    AllAuthorFromDB = library.Authors
+                
+                };
                 string updatedmyDB = JsonSerializer.Serialize(myDB, new JsonSerializerOptions { WriteIndented = true });
                 File.WriteAllText(dataJsonFilePath, updatedmyDB);
                 Console.WriteLine("Library Data successfully saved to JSON");
