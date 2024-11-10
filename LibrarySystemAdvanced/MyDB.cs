@@ -10,7 +10,7 @@ namespace LibrarySystemAdvanced
     public class MyDB
     {
         [JsonPropertyName("books")]
-        public List<Book> AllBooksFromDB { get; set; } = new List<Book>();
+        public List<Book> AllBooksFromDB { get; set; } 
 
     }
 }

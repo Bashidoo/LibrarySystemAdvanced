@@ -1,17 +1,18 @@
 {
   "books": [
     {
-      "Title": "The Great Gatsby",
-      "Author": "F. Scott Fitzgerald",
-      "Genre": "Fiction",
-      "PublishingYear": 1925,
-      "ISBN": 123456789,
+      "Title": "To Kill a Mockingbird",
+      "Author": "Harper Lee",
+      "Genre": "Historical Fiction",
+      "PublishingYear": 1960,
+      "ISBN": 987654321,
       "Grades": [
         5,
+        5,
         4,
-        4
+        5
       ],
-      "AverageGrades": 4.333333333333333
+      "AverageGrades": 4.75
     },
     {
       "Title": "1984",
@@ -119,6 +120,15 @@
         5
       ],
       "AverageGrades": 4.6
+    },
+    {
+      "Title": "Niggalations",
+      "Author": "Busher Abo Dan",
+      "Genre": "Action",
+      "PublishingYear": 2002,
+      "ISBN": 268242444,
+      "Grades": [],
+      "AverageGrades": 0
     }
   ]
 }
