@@ -24,10 +24,6 @@ namespace LibrarySystemAdvanced
                 library.Books.AddRange(myDB.AllBooksFromDB); // Library.Books.Add is not working, AddRange is working maybe because it has a list of books so it considers it as a range.
                 library.Authors.AddRange(myDB.AllAuthorFromDB);
 
-                foreach (var author in library.Authors)
-                {
-                    Console.WriteLine(author);
-                }
 
                 Console.WriteLine("Books and Authors successfully added from JSON.");
 
